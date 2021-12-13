@@ -7,6 +7,8 @@ package com.zp.dps.singleton;
  */
 public class SingletonLazySafe2 {
 
+    private SingletonLazySafe2() {}
+
     static class SingletonHolder {
         private static final SingletonLazySafe2 INSTANCE = new SingletonLazySafe2();
     }
